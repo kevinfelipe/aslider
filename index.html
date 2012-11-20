@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it">
+<head>
+	<title>Slider jQuery - Kevin Felipe</title>	
+	<link rel="stylesheet" href="css/slider.css" /> 
+		<script src="js/jquery.js"></script> 
+		<script src="js/slider.js"></script> 
+		<script language="JavaScript"> 
+        $(document).ready(function(){
+			$('#slider-list').aslider({
+				'speed': 2000,
+				'animation': ['fade','pixel','move','hline','slide','vline','show','wind'],
+				'auto': true,
+				'delay': 20000,
+				'pix_count_x': 14,
+				'pix_count_y': 8,
+				'pix_effect': 'show',
+				'pix_random': true,
+				'btn_opacity': .3,
+				'title_opacity': .8,
+				'description_opacity': .6
+			});
+        });
+        </script> 
+	</head>
+<body>
+<h1><center>Aslider jQuery</center></h1>
+
+		<!-- aSlider --> 
+		<ul id="slider-list"> 
+			<li><img src="images/1.jpg" title="Image 1" alt="Slider 1 text" /></li> 
+			<li><a href="#"><img src="images/2.jpg" title="Image 2" alt="Slider 2 text" /></a></li> 
+			<li><a href="#"><img src="images/3.jpg" title="Image 3" alt="Slider 3 text" /></a></li> 
+			<li><img src="images/4.jpg" title="Image 4" alt="Slider 4 text" /></li> 
+		</ul> 
+		<!-- /aSlider --> 
+</body>
+</html>

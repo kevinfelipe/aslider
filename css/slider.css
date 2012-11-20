@@ -1,0 +1,170 @@
+body {
+	margin: 0px;
+	padding: 20px 40px;
+	background: #95ADA9;
+	font-size: 12px;
+	font-family: Arial;
+	color: #000;
+}
+h1 {
+	margin: 0px;
+	padding: 0px;
+	font-style: italic;
+}
+h2 {
+	font-weight: normal;
+}
+p {
+	margin: 5px 0px 20px;
+	padding: 0px;
+}
+fieldset {
+	margin: 20px 0px;
+	padding: 10px;
+}
+select {
+	width: 100px;
+}
+pre {
+	border: 1px dotted #000;
+	padding: 10px;
+	background-color: #fff;
+	color: #000;
+}
+.jprojects {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+}
+.jprojects a:link, .jprojects a:visited {
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+.jprojects a:hover {
+    text-decoration: underline;
+}
+
+/********** aSlider * DO NOT CHANGE **************/
+#aslider {
+	position: relative;
+}
+#slider-list {
+	display: none;
+}
+#slider-container {
+	overflow: hidden;
+	position: relative;
+	z-index: 9998;
+}
+.slider-item {
+	position: absolute;
+	z-index: 9997;
+	overflow: hidden;
+	display: none;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+#slider-pager {
+	position: absolute;
+	z-index: 9999;
+}
+.slider-pager-item {
+	cursor: pointer;
+}
+#slider-loader {
+	position: absolute;
+}
+.slider-btn {
+	position: absolute;
+	z-index: 9999;
+	display: none;
+	cursor: pointer;
+}
+#slider-title {
+	position: absolute;
+	z-index: 9998;
+	display: none;
+}
+#slider-description {
+	position: absolute;
+	z-index: 9998;
+	display: none;
+}
+
+/********** aSlider look ***************/
+#aslider {
+	width: 700px;
+	height: 400px;
+	margin: 0px auto;
+}
+#slider-container {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #fff;
+	background: #efefef;
+}
+.slider-item {
+	width: 100%;
+	height: 100%;
+}
+#slider-pager {
+	right: 20px;
+	bottom: 40px;
+}
+.slider-pager-item {
+	display: block;
+	float: left;
+	margin: 2px;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background: url(../images/pager.png) no-repeat left bottom;
+	color: #000;
+	font-size: 11px;
+}
+#slider-pager .active, #slider-pager .hover {
+	color: #fff;
+	background: url(../images/pager.png) no-repeat left top;
+}
+#slider-loader {
+	font-size: 14px;
+	width: 100%;
+	height: 400px;
+	line-height: 400px;
+	text-align: center;
+	color: #000;
+}
+.slider-btn {
+	width: 40px;
+	height: 40px;
+}
+#slider-l_btn {
+	left: -50px;
+	top: 180px;
+	background: url(../images/larr.png) no-repeat 0 0;
+}
+#slider-r_btn {
+	right: -50px;
+	top: 180px;
+	background: url(../images/rarr.png) no-repeat 0 0;
+}
+#slider-title {
+	color: #ffffff;
+	text-shadow: #000 1px 1px 1px;
+	top: 10px;
+	left: 10px;
+	font-size: 20px;
+}
+#slider-description {
+	background-color: #000;
+	color: #fff;
+	bottom: 0px;
+	left: 0px;
+	font-size: 15px;
+	width: 100%;
+	height: 30px;	
+	line-height: 30px;
+	padding: 0px 10px;
+}
